@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="../images/vcs-logo.png" alt="vcs-logo">
+
+    </div>
+    <h1>About</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repudiandae fugiat ad id praesentium earum fuga.
+    Placeat culpa sunt nemo similique voluptatum reiciendis repudiandae quos sequi pariatur rem, quod suscipit explicabo
+    blanditiis obcaecati tenetur, quae nesciunt recusandae quia tempore excepturi laboriosam mollitia. Vero laudantium
+    aspernatur eius, ratione quo recusandae esse!
+    </p>
+
+    <h2>Projects</h2>
+    <ul>
+        <li>Featured
+            <ul>
+                <li><a href="Project 1">Project 1</a></li>
+                <li><a href="Project 2">Project 2</a></li>
+            </ul>
+        <li>Latest
+            <ul>
+                <li><a href="Project 4">Project 4</a></li>
+                <li><a href="Project 5">Project 5</a></li>
+            </ul>
+    </ul>
+    </ul>
+    <h2>Festival Schedule</h2>
+    <table border="">
+        <tr>
+            <th>Time</th>
+            <th>Topic</th>
+        </tr>
+        <tr>
+            <td>9:00-12:00</td>
+            <td>Registration</td>
+        </tr>
+        <tr>
+            <td>12:00-14:00</td>
+            <td>Keynote</td>
+        </tr>
+    </table>
+
+    <h2>Sign Up!</h2>
+
+    <div><label for="fname">Name:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Enter your Name">
+    </div>
+    <div><label for="Email">Email:</label>
+        <input type="text" id="Email" name="email" placeholder="Enter your Email">
+    </div>
+    <div><label for="Location">Location:</label>
+        <select name="location" id="location">
+            <option value="Choose City">Choose City</option>
+            <option value="Šiauliai">Šiauliai</option>
+            <option value="Alytus">Alytus</option>
+        </select>
+    </div>
+
+    <div><label>Gender:</label>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Female">Female</label>
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label for="Male">Male</label>
+    </div>
+
+    <div><label>Message:</label>
+        <form action="/action_page.php" id="usrform">
+        </form>
+        <textarea rows="6" cols="17" name="comment" form="usrform">Your message</textarea>
+    </div>
+    <button onclick="document.location='default.asp'">Sign Up</button>
+    
+</body>
+
+</html>
